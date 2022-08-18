@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto';
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 60px; ;
+    padding: 15px;
+    align-items: center;
+    margin-bottom: 18px;
+    background-color:darkgray;
+    
+}
+.left {
+    display: flex;
+    align-items: center;
+   }
+   
+   .left #menu {
+    padding: 0 7px;
+    cursor: pointer;
+   }
+
+   .search {
+    display: flex;
+   }
+   .biogra{
+    margin-right: 12px;
+   }
+   .chrono{
+    margin-right: 12px;
+   }
+   .polit{
+    margin-right: 12px;
+   }
+   .hero{
+    margin-right: 12px;
+   }
+   .safin{
+    margin-right: 12px;
+   }
+   
+   .search form {
+    display: flex;
+    border: 1px solid #ddd;
+    height: 45px;
+   }
+   .search input {
+    width: 600px;
+    padding:10px;
+    border: 0;
+    height: 100%;
+    border-radius: 2px 0 0 2px
+  }
+  
+  input:focus {
+    outline: none;
+    border: 1px solid #ddd;
+  }
+  .search button {
+    height: 100%;
+    width: 60px;
+    border: none;
+  }
+  
+  .mic {
+    margin-top: 10px;
+  }
+  .material-icons {
+    color: rgb(100, 100, 100);
+    padding: 0 7px;
+    cursor: pointer;
+  }
+  .debut{
+    color:black;
+  }
+
+  section{
+    flex-direction: column;
+  }
+  nav{
+    display: flex;
+    
+  }
+  
+  .liste{
+    text-align: center;
+    margin-bottom: 16px;
+    margin-right: 8px;
+    padding: 8px;
+    font-size: 25px;
+    width: 100%;
+    }
+    .famille{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 50px;
+      text-align: center;
+      color: crimson;
+      border-radius: 15px;
+      
+    }
+    #forme{
+      text-align: center;
+      font-size: 25px;
+      background-color: crimson;
+      border-radius: 15px;
+    }
+    aside{
+      padding: 50px;
+      border: none;
+      }
+      .ecriture{
+        font-size: 18px;
+      }
+      footer{
+        padding: 7px;
+      background-color: rgb(27, 25, 25);
+      
+      }
+      .solo{
+        text-align: center;
+      color: white;
+
+      }
+      img{
+        border-radius: 25px;
+      }
+      #form{
+        text-align: center;
+      font-size: 25px;
+      background-color: crimson;
+      border-radius: 15px;
+      }
+      #for{
+        text-align: center;
+      font-size: 25px;
+      background-color: crimson;
+      border-radius: 15px;
+      }
+      #fo{
+        text-align: center;
+      font-size: 25px;
+      background-color: crimson;
+      border-radius: 15px;
+      }
+      #f{
+        text-align: center;
+      font-size: 25px;
+      background-color: crimson;
+      border-radius: 15px;
+      }
